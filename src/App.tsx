@@ -37,7 +37,7 @@ const App: FC = () => {
   };
 
   return (
-    <div className=" bg-slate-900 flex h-screen  justify-center overflow-auto">
+    <div className=" bg-slate-900 flex h-screen  justify-center overflow-auto p-7 md:p-0">
       <div className=" text-blue-400 text-3xl absolute bottom-0 pb-5 opacity-50 z-0">
         <div className="flex space-x-6">
           <span className="text-xl ">Built with </span>
@@ -45,7 +45,6 @@ const App: FC = () => {
           <SiTypescript />
           <SiTailwindcss />
           <span className="text-xl">&</span>
-
           <RxVercelLogo />
         </div>
       </div>

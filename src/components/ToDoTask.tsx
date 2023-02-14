@@ -11,7 +11,7 @@ interface Props {
 const ToDoTask = ({ task, completeTask }: Props) => {
   return (
     <div className=" text-gray-300">
-      <div className="flex text-center my-2">
+      <div className="flex text-center my-7">
         <span className="basis-2/3 bg-green-900 p-2 text-left text-sm">
           {task.taskName}
         </span>
